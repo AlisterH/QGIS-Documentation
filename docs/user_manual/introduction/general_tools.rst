@@ -129,10 +129,10 @@ To create a map theme:
 #. Expand the :menuselection:`Style -->` menu at the bottom and click on :guilabel:`Add...`
    to store the settings as :ref:`a new style embedded in the project <manage_custom_style>`
 
-   .. note:: A map theme does not remember the current details of the properties:
-     only a reference to the style name is saved, so whenever you apply
-     modifications to the layer while this style is enabled (eg change the
-     symbology rendering), the map theme is updated with new information.
+   .. note:: A map theme only remembers the visibility of layers
+     and the name of the selected style for each layer -
+     it does not remember the details of the style, so you do not 
+     need to update the map theme after altering a style.
 
 #. Repeat the previous steps as necessary for the other layers
 #. If applicable, expand or collapse groups or visible layer nodes in the
